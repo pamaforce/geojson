@@ -34,6 +34,7 @@ python download.py
 - 下载过程可能需要一些时间，具体取决于你的网络速度和阿里云服务器的响应速度。
 - 多线程版本由于速度过快会受到限制，请慎用。
 - 数据获取日期为`2024/4/7`，数据来源为`https://geo.datav.aliyun.com/areas_v3/bound/geojson?code={adcode}[_full]`
+- 注意根据数据源的描述，页面数据来源于高德开放平台，所以其坐标系应为`GCJ-02`。
 
 ## 许可证
 这个项目是在MIT许可证下发布的。详情请查看[LICENSE](LICENSE)文件。

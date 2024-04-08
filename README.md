@@ -31,7 +31,7 @@ pip install -r requirements.txt
 ```sh
 python download.py
 ```
-2. 运行gcj2wgs.py脚本来开始转换数据：
+3. 运行gcj2wgs.py脚本来开始转换数据：
 
 ```sh
 python gcj2wgs.py

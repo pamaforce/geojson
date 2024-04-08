@@ -54,7 +54,7 @@ def process_json_data(adcode, path, pbar):
         for future in futures:
             future.result()  # 等待所有提交的任务完成
 
-root_path = 'geojson'
+root_path = 'geojson_gcj02'
 os.makedirs(root_path, exist_ok=True)
 
 initial_json_data = download_json(adcode)

@@ -57,7 +57,7 @@ def process_json_data(adcode, path, pbar):
         if new_adcode != adcode:
             process_json_data(new_adcode, full_path, pbar)
 
-root_path = 'geojson'
+root_path = 'geojson_gcj02'
 create_folder(root_path)
 
 # 获取初始的features数
